@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/basicView"
+    android:layout_width="@dimen/default_width"
+    android:layout_height="@dimen/default_height"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/basic_color"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:id="@+id/basicLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/accent_color"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/basic_layer"
+            android:layout_width="158dp"
+            android:layout_height="match_parent"
+            tools:ignore="Suspicious0dp">
+
+            <TextView
+                android:id="@+id/basic_text"
+                android:layout_width="@dimen/default_width"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/basic_color"
+                android:gravity="center"
+                android:textColor="@color/accent_color"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:typeface="sans"
+                tools:text="Loading..." />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/accent_text"
+                android:layout_width="@dimen/default_width"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:textColor="@color/basic_color"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:typeface="sans"
+                tools:text="Loading..." />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
