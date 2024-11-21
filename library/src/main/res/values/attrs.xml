@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="finishState">
+        <enum name="basicState" value="0" />
+        <enum name="accentState" value="1" />
+    </attr>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="text" format="string" localization="suggested" />
+        <attr name="basicColor" format="color"/>
+        <attr name="accentColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="finishState"/>
+        <attr name="style" format="reference"/>
+    </declare-styleable>
+</resources>
