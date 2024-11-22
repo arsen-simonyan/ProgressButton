@@ -66,3 +66,9 @@ afterEvaluate {
         }
     }
 }
+
+tasks.register("checkJavaVersion") {
+    doLast {
+        println("Java version: ${System.getProperty("java.version")}")
+    }
+}
