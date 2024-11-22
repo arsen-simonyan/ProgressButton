@@ -3,3 +3,7 @@ jdk:
 install:
   - ./gradlew :library:build :library:publishToMavenLocal -x :library:test
   - find . -name "*.aar"
+
+build:
+  modules:
+    - library
