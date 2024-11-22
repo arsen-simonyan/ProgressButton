@@ -53,3 +53,16 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                from (components["release"])
+                groupId = "am.newway.progressbutton"
+                artifactId = "progressbutton-app"
+                version = "1.0.0"
+            }
+        }
+    }
+}
