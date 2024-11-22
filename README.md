@@ -1,7 +1,8 @@
 **Note:** updated version of this library will be available [here](https://github.com/arsen-simonyan/ProgressButton/releases).
 
 [![](https://jitpack.io/v/arsen-simonyan/ProgressButton.svg)](https://jitpack.io/#arsen-simonyan/ProgressButton)
-[![Android Arsenal](http://img.shields.io/badge/Android%20Arsenal-Circular%20Progress%20Button-brightgreen.png?style=flat)](http://android-arsenal.com/details)
+[![Android Arsenal](https://img.shields.io/badge/ProgressButton-v1.0.0-brightgreen)](http://android-arsenal.com/details)
+[![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=23)
 
 ### Description
 
