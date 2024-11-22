@@ -52,6 +52,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation("com.github.arsen-simonyan:ProgressButton:v1.0.0")
 }
 
 afterEvaluate {
