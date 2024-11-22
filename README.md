@@ -1,11 +1,11 @@
-**Note:** updated version of this library will be available [here](https://github.com/arsen-simonyan/ProgressButton).
+**Note:** updated version of this library will be available [here](https://github.com/arsen-simonyan/ProgressButton/releases).
 
 [![](https://jitpack.io/v/arsen-simonyan/ProgressButton.svg)](https://jitpack.io/#arsen-simonyan/ProgressButton)
-[![Android Arsenal](http://img.shields.io/badge/Android%20Arsenal-Circular%20Progress%20Button-brightgreen.png?style=flat)](http://android-arsenal.com/details/1/67)
+[![Android Arsenal](http://img.shields.io/badge/Android%20Arsenal-Circular%20Progress%20Button-brightgreen.png?style=flat)](http://android-arsenal.com/details)
 
 ### Description
 
-Android Button which can morph to ProgressButton
+Android button that can show progress
 
 ![](screenshots/intro.gif)
 
@@ -13,7 +13,6 @@ Android Button which can morph to ProgressButton
 
 - [Home]
 - [Screenshots]
-- [User Guide]
 
 ### Integration
 
@@ -34,3 +33,5 @@ dependencies {
 }
 ```
 
+[Home]:https://github.com/arsen-simonyan/ProgressButton/wiki
+[Screenshots]:https://github.com/arsen-simonyan/ProgressButton/wiki/Screenshots
