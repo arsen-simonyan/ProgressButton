@@ -57,7 +57,7 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("maven") {
+            create<MavenPublication>("release") {
                 from (components["release"])
                 groupId = "am.newway.progressbutton"
                 artifactId = "progressbutton"
