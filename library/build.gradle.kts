@@ -53,12 +53,3 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
-
-
-//publishing {
-//    publications {
-//        create<MavenPublication>("release") {
-//            from(components["release"])
-//        }
-//    }
-//}
