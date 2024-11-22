@@ -5,6 +5,10 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        create("release") {
+        }
+    }
     namespace = "am.newway.progressbutton"
     compileSdk = 35
 
@@ -13,6 +17,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
+        signingConfig = signingConfigs.getByName("release")
     }
 
     buildTypes {
@@ -23,6 +28,9 @@ android {
                 "proguard-rules.pro"
             )
         }
+    }
+    publishing {
+        singleVariant("release")
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -45,3 +53,12 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
+
+//publishing {
+//    publications {
+//        create<MavenPublication>("release") {
+//            from(components["release"])
+//        }
+//    }
+//}
