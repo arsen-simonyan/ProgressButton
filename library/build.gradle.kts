@@ -61,9 +61,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from (components["release"])
-                groupId = "am.newway.progressbutton"
-                artifactId = "progressbutton"
-                version = "1.0.0"
+                groupId = "com.github.arsen-simonyan"
+                artifactId = "ProgressButton"
+                version = "Tag"
             }
         }
     }
