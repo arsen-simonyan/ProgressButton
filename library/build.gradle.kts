@@ -63,7 +63,7 @@ afterEvaluate {
                 from (components["release"])
                 groupId = "com.github.arsen-simonyan"
                 artifactId = "ProgressButton"
-                version = "Tag"
+                version = "1.0.2"
             }
         }
     }
